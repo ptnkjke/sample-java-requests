@@ -29,6 +29,7 @@ public class Utils {
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
             }
+            num++;
         }
         urlParameters = sb.toString();
         try {
